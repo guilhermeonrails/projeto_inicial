@@ -1,0 +1,19 @@
+.banner {
+    width: auto;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.banner__imagem {
+    width: 100%;
+}
+
+.banner__titulo {
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 350px;
+    line-height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}

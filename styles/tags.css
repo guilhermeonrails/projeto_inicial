@@ -1,0 +1,30 @@
+.tags {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    color: #D9D9D9;
+    font-size: 1.3rem;
+}
+
+.tags__titulo {
+    margin-right: 4rem;
+}
+
+.tags__lista {
+    display: flex;
+}
+
+.tags__tag {
+    background-color: #D9D9D930;
+    margin-right: 1.5rem;
+    border-radius: 8px;
+    padding: .8rem .5rem;
+    width: 100px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.tags__tag:hover {
+    border: 2px solid #7B78E5;
+    cursor: pointer;
+}

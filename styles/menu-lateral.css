@@ -1,0 +1,29 @@
+.menu-lateral {
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    min-width: 270px;
+}
+
+.menu-lateral__navegacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral__navegacao a {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 24px;
+}
+
+.menu-lateral__navegacao a:first-child {
+    font-weight: bold;
+    color: #7B78E5;
+}
+
+.menu-lateral__navegacao img {
+    margin-right: 1.5rem;
+}
